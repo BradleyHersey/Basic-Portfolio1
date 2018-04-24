@@ -1,4 +1,5 @@
 
+
 .BDH{
     font-size: 45px;
     color:white;
@@ -10,6 +11,17 @@
     padding: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
+}
+.top{
+    background-color:white;
+    height: 150px;
+    margin:10px 100px 10px 100px;
+    padding:20px;
+    border-bottom: dotted grey 2px;
+}
+.top::after{
+    
+    clear:both;
 }
 .links{
     float:right;
@@ -35,9 +47,9 @@
 }
 
 body{
-    
-    background-image: ("assets/image/45degreee_fabric.png");
-    background-color: #eeeeee;
+    background-image: image("assets/image/45degreee_fabric");
+   background-color: #eeeeee;
+   
 }
 
 .aboutMe{
@@ -54,14 +66,19 @@ body{
    border: dashed rgba(90, 88, 88, 0.329) 2px;
    padding: 2px;
    border-radius: 20px;
+   
 }
 .p{
     float: left;
     border-top: dashed grey 2px;
+    margin:20px 100px 20px 100px;
+    padding: 20px;
+    background: floralwhite;
 }
 .p1{
-    font-size: 25px;
+    font-size: 30px;
     font-family: monospace;
+    border-top:solid black 2px;
 }
 #message{
     height: 200px;
@@ -69,8 +86,10 @@ body{
 .form{
     float:left;
     padding: 20px;
-    margin:10px;
+    margin:20px 50px 20px 100px;
+    padding:20px;
     border-top: dotted grey 5px;
+    background: white;
 
 }
 .ct{
@@ -100,8 +119,59 @@ option{
 #sub:hover{
     border-radius: 50px;
 }
+.pf1{
+    position: absolute;
+    left:10px;
+    float: left;
+    top: 250px;
+    margin: 20px;
+}
+.pf2{
+    position: absolute;
+    left:10px;
+    float: left;
+    top: 250px;
+    margin: 20px;
+    left: 200px;
+}
+.pf3{
+    position: absolute;
+    left:10px;
+    float: left;
+    top: 450px;
+    margin: 20px;
+    left: 10px;
+}
+.pf4{
+    position: absolute;
+    left:10px;
+    float: left;
+    top: 450px;
+    margin: 20px;
+    left: 200px;
+}
+.pf5{
+    position: absolute;
+    left:10px;
+    float: left;
+    top: 650px;
+    margin: 20px;
+    left:10px;
+}
+.ppf1{}
+.ppf2{}
+.ppf3{}
+.ppf4{}
+.ppf5{}
 
-
-
+footer{
+    background-color:white;
+    height: 20px;
+    position: relative;
+    text-align: center;
+    top: 850px;
+    right: 400;
+    margin: 1px 20px 1px 20px;
+}
     
 
