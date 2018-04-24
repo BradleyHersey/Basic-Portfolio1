@@ -47,7 +47,7 @@
 }
 
 body{
-    background-image: image("assets/image/45degreee_fabric");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuQchztCVkkv0OVtDiGBTzwKPSJHHRO0kj4M19QAAO4aEGuOzR");
    background-color: #eeeeee;
    
 }
@@ -165,13 +165,12 @@ option{
 .ppf5{}
 
 footer{
-    background-color:white;
+    color:red;
     height: 20px;
     position: relative;
     text-align: center;
-    top: 850px;
-    right: 400;
     margin: 1px 20px 1px 20px;
+    
 }
     
 
